@@ -1,0 +1,16 @@
+@import './hero-contet.css';
+
+.hero {
+  background-image: url('../../../images/background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white);
+  block-size: 697px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    block-size: 814px;
+  }
+}

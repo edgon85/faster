@@ -1,0 +1,36 @@
+@import './press-description.css';
+@import './description-content.css';
+
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-block-end: 4rem;
+}
+
+.press-image img {
+  inline-size: 100%;
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+  .press {
+    grid-template-areas: '. . content content';
+  }
+
+  .press-content {
+    padding-inline-end: 1.25rem;
+  }
+
+  .logos {
+    flex-direction: row;
+    margin-block-start: 2.75rem;
+    margin-block-end: 8rem;
+  }
+
+  .press-image {
+    padding-inline-end: 1.25rem;
+  }
+}

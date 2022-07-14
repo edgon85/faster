@@ -1,0 +1,19 @@
+.btn-login {
+  border: none;
+  border-radius: 0.25rem;
+  font: var(--button);
+  padding-block: 0.3125rem;
+  padding-inline: 1rem;
+  cursor: pointer;
+}
+
+.btn-heroSignup {
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 0.5rem;
+  padding-block: 0.75rem;
+  padding-inline: 3.8125rem;
+  font: var(--button);
+  cursor: pointer;
+}

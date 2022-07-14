@@ -1,0 +1,23 @@
+.line {
+  block-size: 2.5rem;
+  background-color: var(--white);
+  margin-inline-start: 1.25rem;
+  border-start-start-radius: 16.25rem;
+  border-end-start-radius: 16.25rem;
+}
+
+.line-progress {
+  block-size: inherit;
+  border-radius: inherit;
+  border-start-end-radius: 16.25rem;
+  border-end-end-radius: 16.25rem;
+  background-color: var(--green);
+  inline-size: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .line {
+    margin-block-end: 15.4375rem;
+    margin-inline-start: 0;
+  }
+}

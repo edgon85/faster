@@ -1,0 +1,35 @@
+.descriptionTitle {
+  font: var(--headline5);
+  padding-block-end: 1rem;
+}
+
+.descriptionSubTitle {
+  font: var(--body2-regular);
+  color: var(--grey);
+}
+
+.inner-phone {
+  text-align: center;
+ /*  background-color: var(--grey-lite); */
+  padding-block: 3rem;
+  padding-inline: 3rem;
+}
+
+.inner-phone img {
+  inline-size: 100%;
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+  .descriptionTitle {
+    font: var(--headline2);
+  }
+
+  .press-descriptionSubTitle {
+    font: var(--body1-regular);
+  }
+
+  .inner-phone {
+    display: none;
+  }
+}

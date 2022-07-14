@@ -1,0 +1,43 @@
+:root {
+  --primary: #fed941;
+  --white: #ffffff;
+  --grey: #808080;
+  --grey-lite: #E8E8E6;
+  --black: #000000;
+  --green: #2FB464;
+  --headline3: 800 2.875rem/3.5rem Inter;
+  --headline2: 700 3rem/3.625rem Inter;
+  --headline4: 700 1.75rem / normal Inter;
+  --headline5: 700 1.5625rem / normal Inter;
+  --button: 700 1.125rem/1.75rem Inter;
+  --caption: 400 0.75rem/1.375rem Inter;
+  --body1-regular: 400 1.125rem/1.6875rem Inter;
+  --body1-bold: 700 1.125rem/1.6875rem Inter;
+  --body2-regular: 400 1rem/1.375rem Inter;
+  --body2-bold: 700 1rem/1.1875rem Inter;
+
+  font-family: Inter, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  :root {
+    font-size: 14px;
+  }
+}

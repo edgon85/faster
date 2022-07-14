@@ -1,0 +1,40 @@
+@import './social.css';
+
+.footer {
+  color: var(--grey);
+  background-color: black;
+  padding-block-start: 6rem;
+  padding-block-end: 8rem;
+  padding-inline: 1.25rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.item {
+  font: var(--body1-regular);
+}
+
+.item:first-child {
+  font: var(--button);
+  color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-inline: 4rem;
+  }
+
+  .footer-content {
+    flex-direction: row;
+    gap: 8rem;
+  }
+}

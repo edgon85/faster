@@ -1,0 +1,16 @@
+.track-description {
+  padding-inline: 1.25rem;
+  margin-block-end: 2.5rem;
+}
+
+.track-description .descriptionSubTitle {
+    color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .track-description {
+    max-inline-size: 28.625rem;
+    padding-inline: 0;
+    margin-block-end: 3.75rem;
+  }
+}

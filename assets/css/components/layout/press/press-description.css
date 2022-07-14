@@ -1,0 +1,17 @@
+.press-description {
+  background-color: var(--grey-lite);
+  padding-block-start: 3.9375rem;
+  padding-inline: 1.25rem;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .press-description {
+    margin-block-start: 4rem;
+    margin-block-end: 7.5rem;
+    background-color: var(--white);
+    max-inline-size: 38.1875rem;
+  }
+
+}

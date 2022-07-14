@@ -1,0 +1,80 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  block-size: 4.75rem;
+}
+
+.logo {
+  align-self: center;
+}
+
+.logo img {
+  inline-size: 100%;
+  vertical-align: middle;
+}
+
+.items {
+  display: none;
+  padding: 0;
+  margin: 0;
+  gap: 2.5rem;
+  align-items: stretch;
+}
+
+.item {
+  list-style: none;
+  display: flex;
+}
+
+.item a {
+  font: var(--button);
+  color: var(--grey);
+  text-decoration: none;
+  align-self: center;
+}
+
+.item a:hover {
+  color: var(--white);
+}
+
+.item.is-active {
+  border-block-end: 4px solid var(--white);
+}
+
+.item.is-active a {
+  color: var(--white);
+}
+
+.login {
+  align-self: center;
+  display: flex;
+  align-items: center;
+}
+
+.btn-login {
+  display: none;
+}
+
+.icon-hamburguer {
+  display: block;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    block-size: 5.375rem;
+  }
+
+  .items {
+    display: flex;
+  }
+
+  .btn-login {
+    display: block;
+  }
+
+  .icon-hamburguer {
+    display: none;
+  }
+}

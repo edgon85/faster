@@ -1,0 +1,15 @@
+@import './track-description.css';
+@import './line.css';
+
+.track {
+  background-color: var(--black);
+  color: var(--white);
+  padding-block-start: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .track {
+    grid-template-areas: '. . content content';
+    padding-block-start: 12.9375rem;
+  }
+}

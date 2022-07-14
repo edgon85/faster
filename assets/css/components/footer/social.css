@@ -1,0 +1,14 @@
+.social h2 {
+    color: var(--white);
+}
+
+
+.social p {
+    font: var(--caption);
+    padding-block: 0.25rem;
+}
+
+.icon-social{
+    display: flex;
+    gap: 1rem;
+}

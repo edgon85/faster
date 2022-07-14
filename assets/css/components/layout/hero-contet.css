@@ -1,0 +1,48 @@
+.hero-content {
+  padding-block-start: 2.1875rem;
+  padding-inline: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.hero-title {
+  font: var(--headline4);
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-subtitle {
+  font: var(--body2-regular);
+  color: var(--grey);
+}
+
+.get-fast {
+  color: var(--grey);
+  font: var(--body1-regular);
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero-content {
+        padding-block-start: 12.9375rem;
+        padding-inline: 0;
+    }
+
+    .hero-title {
+        font: var(--headline3); 
+    }
+
+    .hero-subtitle {
+        font: var(--body1-regular);
+        max-inline-size: 36.25rem;
+        padding-block-end: 1.5rem;
+      }
+
+      .get-fast {
+        color: var(--grey);
+        font: var(--body1-regular);
+        padding-block-start: 4.5rem;
+      }
+}

@@ -1,0 +1,12 @@
+@import './navbar.css';
+
+.header {
+  background-color: var(--black);
+  color: var(--white);
+  padding-inline: 1.25rem;
+}
+
+.header-wrapper {
+  max-inline-size: 1366px;
+  margin: auto;
+}

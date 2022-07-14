@@ -1,0 +1,51 @@
+.lessLogin {
+  background-color: var(--white);
+}
+
+
+.lessLogin-content{
+  margin-block: 4rem;
+  padding-inline: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+
+
+.lessLogin-image {
+  order: 2;
+  max-inline-size: 23.1875rem;
+  max-block-size: 23.1875rem;
+}
+.lessLogin-image img{
+  inline-size: 100%;
+  vertical-align: middle;
+}
+
+
+.lessLogin-description {
+  order: 1;
+}
+
+@media screen and (min-width: 768px ) {
+
+  .lessLogin-content{
+    margin-block: 12.5rem;
+    padding-inline: 0;
+    gap: 4rem;
+  }
+
+  .lessLogin-image {
+    order: 1;
+  }
+
+  .lessLogin-description {
+    max-inline-size: 27.875rem;
+    order: 2;
+  }
+
+  .lessLogin-content .descriptionSubTitle{
+    max-inline-size: 23.25rem;
+  }
+}

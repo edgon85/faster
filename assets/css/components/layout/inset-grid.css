@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+  .inset-grid {
+    display: grid;
+    grid-template-columns: var(--gridTemplateColumns);
+    grid-template-areas: '. . content .';
+  }
+
+  .inset-grid [class*='content'] {
+    grid-area: content;
+  }
+}

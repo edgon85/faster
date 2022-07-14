@@ -1,0 +1,50 @@
+.itsTime {
+  background: var(--grey-lite);
+  padding-inline: 1.25rem;
+  background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, var(--black) 50%, var(--black));
+}
+
+.itsTime-content {
+  background: var(--white);
+  text-align: center;
+  padding-block: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.itsTime-title {
+  font: var(--headline5);
+  color: var(--black);
+  margin-block-end: 0.75rem;
+}
+
+.itsTime-subtitle {
+  font: var(--body2-regular);
+  color: var(--grey);
+  margin-block-end: 1.25rem;
+}
+
+.itsTime-content .btn-heroSignup {
+  background: var(--black);
+}
+
+@media screen and (min-width: 768px) {
+  .itsTime-content {
+    max-inline-size: 54.75rem;
+    margin: auto;
+    padding-block: 4rem;
+  }
+
+  .itsTime-title {
+    font: var(--headline2);
+    margin-block-end: 0.75rem;
+  }
+
+  .itsTime-subtitle {
+    font: var(--body1-regular);
+    margin-block-end: 3.5rem;
+  }
+
+  .itsTime-content .btn-heroSignup {
+    padding-inline: 5.9375rem;
+  }
+}

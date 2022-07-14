@@ -1,0 +1,36 @@
+@import './phone.css';
+@import './hero.css';
+@import './inset-grid.css';
+
+:root {
+  --phoneInlineSize: 300px;
+  --gridTemplateColumns: 1fr var(--phoneInlineSize) 4fr 1fr;
+}
+
+@media screen and (min-width: 1000px) {
+  :root {
+    --phoneInlineSize: 400px;
+    --gridTemplateColumns: 1fr var(--phoneInlineSize) 3fr 1fr;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .layout {
+    display: grid;
+    grid-template-columns: var(--gridTemplateColumns);
+    grid-template-areas: 'wrapper-start phone content wrapper-end';
+  }
+
+  .hero {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .layout section {
+    grid-column: 1 / -1;
+  }
+
+  .phone {
+    grid-area: phone;
+  }
+}
