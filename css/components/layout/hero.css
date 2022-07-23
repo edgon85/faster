@@ -1,7 +1,7 @@
 @import './hero-contet.css';
 
 .hero {
-  background-image: url('../../../images/background.jpg');
+  background-image: url('../../../assets/images/background.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
