@@ -19,11 +19,11 @@ ul {
   gap: 4rem;
 }
 
-.item {
+.item-footer {
   font: var(--body1-regular);
 }
 
-.item:first-child {
+.item-footer:first-child {
   font: var(--button);
   color: var(--white);
 }
