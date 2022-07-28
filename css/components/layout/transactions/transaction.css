@@ -1,6 +1,6 @@
 .transactions {
   background-color: var(--grey-lite);
-  background-image: url('../../../../../assets/images/bg-transaction.png');
+  background-image: url(../../../../assets/images/bg-transaction.png);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: 120%;

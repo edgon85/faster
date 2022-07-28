@@ -29,6 +29,14 @@
     margin-block-start: 2.75rem;
     margin-block-end: 8rem;
   }
+  
+  .logos-img {
+    max-inline-size: 7.1875rem;
+  }
+  .logos-img img {
+    width: 100%;
+    vertical-align: middle;
+  }
 
   .press-image {
     padding-inline-end: 1.25rem;
